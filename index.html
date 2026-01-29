@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taller Mecánico XYZ</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Taller Mecánico XYZ</h1>
+      <p>Servicio profesional y confiable</p>
+    </div>
+  </header>
+
+  <nav class="container">
+    <ul class="main-nav" role="navigation" aria-label="Menú principal">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="servicios" aria-labelledby="servicios-title">
+      <h2 id="servicios-title">Servicios</h2>
+      <ul>
+        <li>Diagnóstico</li>
+        <li>Mantenimiento</li>
+        <li>Frenos y suspensión</li>
+      </ul>
+    </section>
+
+    <section id="contacto" aria-labelledby="contacto-title">
+      <h2 id="contacto-title">Contacto</h2>
+      <p>📞 <a href="tel:+525512345678">55 1234 5678</a></p>
+      <p>📍 Ciudad de México</p>
+
+      <form class="contact-form" action="#" method="post">
+        <label for="name">Nombre</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Taller Mecánico XYZ</p>
+    </div>
+  </footer>
+</body>
+</html>
